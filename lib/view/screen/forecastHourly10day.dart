@@ -33,10 +33,6 @@ class _ForecastHourly10dayDetailsState
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(
-              height: height * 0.02,
-            ),
-
             //<--------------- Temp/Icon -------------->
             _buildTemp(data),
             SizedBox(
@@ -66,7 +62,7 @@ class _ForecastHourly10dayDetailsState
             //<--------------- Visibility / UV / Chance of Rain -------------->
             _buildVisibilityUvRain(data),
             SizedBox(
-              height: height * 0.05,
+              height: height * 0.04,
             ),
           ],
         ),
@@ -79,19 +75,19 @@ class _ForecastHourly10dayDetailsState
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               WeatherMeasurement(
-                iconLink: 'assets/images/homepage/wind.png',
+                iconLink: 'assets/images/others/visibility.png',
                 name: 'Visibility',
                 value: '${data['vis_km']}',
                 unit: 'KM',
               ),
               WeatherMeasurement(
-                iconLink: 'assets/images/homepage/humidity.png',
+                iconLink: 'assets/images/others/uv.png',
                 name: 'UV',
                 value: '${data['uv']}',
                 unit: '',
               ),
               WeatherMeasurement(
-                iconLink: 'assets/images/homepage/pressure.png',
+                iconLink: 'assets/images/others/rain.png',
                 name: 'Chance of Rain',
                 value: '${data['chance_of_rain']}',
                 unit: '%',
@@ -105,7 +101,7 @@ class _ForecastHourly10dayDetailsState
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         WeatherMeasurement(
-          iconLink: 'assets/images/homepage/pressure.png',
+          iconLink: 'assets/images/homepage/wind.png',
           name: 'Wind',
           value: '${data['wind_mph']}',
           unit: 'KM',
@@ -117,7 +113,7 @@ class _ForecastHourly10dayDetailsState
           unit: 'MB',
         ),
         WeatherMeasurement(
-          iconLink: 'assets/images/homepage/pressure.png',
+          iconLink: 'assets/images/homepage/humidity.png',
           name: 'Humidity',
           value: '${data['humidity']}',
           unit: '%',

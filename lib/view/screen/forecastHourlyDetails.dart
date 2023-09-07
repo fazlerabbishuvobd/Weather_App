@@ -31,10 +31,6 @@ class _ForecastHourlyDetailsState extends State<ForecastHourlyDetails> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(
-              height: height * 0.02,
-            ),
-
             //<---------------- Temperature/Icon -------------->
             _buildTemp(data),
             SizedBox(
@@ -51,7 +47,7 @@ class _ForecastHourlyDetailsState extends State<ForecastHourlyDetails> {
             const Text('Others Information',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             SizedBox(
-              height: height * 0.02,
+              height: height * 0.01,
             ),
 
             _buildWindPressureHumidity(data),

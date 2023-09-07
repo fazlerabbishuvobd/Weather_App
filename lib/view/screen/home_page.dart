@@ -202,7 +202,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   Container _buildTabBarTomorrowList(Map<String, dynamic> forecastTomorrowData) {
     return Container(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
       ),
@@ -294,7 +294,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             child: const Text(
               'Tomorrow',
               style: TextStyle(fontSize: 18,color: Colors.deepPurple,fontWeight: FontWeight.bold),
-            )),
+            )
+        ),
         Container(
             height: height * 0.04,
             alignment: Alignment.center,
@@ -310,7 +311,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   Container _buildWindHumidityPressure(Map<String, dynamic> weatherData) {
     return Container(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
       ),

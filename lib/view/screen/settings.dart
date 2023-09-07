@@ -217,7 +217,7 @@ class _SettingPageState extends State<SettingPage> {
             Container(
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(10),
-                height: MediaQuery.sizeOf(context).height * 0.45,
+                height: MediaQuery.sizeOf(context).height * 0.48,
                 width: double.infinity,
                 child: Column(
                   children: [

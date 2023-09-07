@@ -183,7 +183,7 @@ class _SearchCityWeatherState extends State<SearchCityWeather> with TickerProvid
 
   Container _buildTabBarTomorrow(Map<String, dynamic> forecastTomorrowData) {
     return Container(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
       ),
@@ -291,7 +291,7 @@ class _SearchCityWeatherState extends State<SearchCityWeather> with TickerProvid
 
   Container _buildWindHumidityPressure(Map<String, dynamic> weatherData) {
     return Container(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
       ),

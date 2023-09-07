@@ -43,7 +43,7 @@ class _Forecast10daysDetailsState extends State<Forecast10daysDetails> {
               //<------------------- Temperature / Icon / Condition ------------------>
               _buildTemperature(data),
               SizedBox(
-                height: height * 0.04,
+                height: height * 0.02,
               ),
 
               //<------------------ Max & Min Temperature ----------------->
@@ -97,7 +97,7 @@ class _Forecast10daysDetailsState extends State<Forecast10daysDetails> {
 
   Container _buildHourlyForecastList(double height, data) {
     return Container(
-      height: height * 0.35,
+      height: height * 0.36,
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),

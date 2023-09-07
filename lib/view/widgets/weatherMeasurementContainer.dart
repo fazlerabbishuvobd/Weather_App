@@ -29,7 +29,7 @@ class WeatherMeasurement extends StatelessWidget {
         padding: const EdgeInsets.all(5),
         alignment: Alignment.center,
         width: width * 0.27,
-        height: height * 0.20,
+        height: height * 0.22,
         child: Column(
           children: [
             SizedBox(height: height*0.02,),
