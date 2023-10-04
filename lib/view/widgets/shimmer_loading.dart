@@ -16,7 +16,7 @@ class _ShimmerLoadingState extends State<ShimmerLoading> {
     return SafeArea(
       child: Scaffold(
         body: SizedBox(
-          height: height,
+          height: height*0.99,
           width: width,
           child: Shimmer.fromColors(
             baseColor: Colors.grey[300]!,
@@ -60,7 +60,7 @@ class _ShimmerLoadingState extends State<ShimmerLoading> {
                       ShimmerContainer(h: height*0.10,w: width*0.2,),
                     ],
                   ),
-                  SizedBox(height: height*0.02,),
+                  SizedBox(height: height*0.01,),
 
                   //humidity
                   ShimmerContainer(h: height*0.17,w: width,),

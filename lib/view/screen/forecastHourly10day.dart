@@ -42,7 +42,7 @@ class _ForecastHourly10dayDetailsState
             //<--------------- Maximum/Minimum Temperature -------------->
             _buildMaxMinTemp(height, width),
             SizedBox(
-              height: height * 0.10,
+              height: height * 0.08,
             ),
 
 
@@ -88,7 +88,7 @@ class _ForecastHourly10dayDetailsState
               ),
               WeatherMeasurement(
                 iconLink: 'assets/images/others/rain.png',
-                name: 'Chance of Rain',
+                name: 'Rain',
                 value: '${data['chance_of_rain']}',
                 unit: '%',
               ),

@@ -38,7 +38,7 @@ String icon = Get.arguments[3];
             _buildMaxMinTemp(height, width),
 
             const Spacer(),
-            SizedBox(height: height*0.05,),
+            SizedBox(height: height*0.04,),
             const Text('Others Information',style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold)),
 
             SizedBox(height: height*0.02,),

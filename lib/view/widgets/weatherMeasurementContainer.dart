@@ -31,14 +31,13 @@ class WeatherMeasurement extends StatelessWidget {
         width: width * 0.27,
         height: height * 0.22,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: height*0.02,),
-
             CircleAvatar(
-              radius: 45,
+              radius: 35,
               backgroundColor: Colors.amber,
               child: CircleAvatar(
-                  radius: 40,
+                  radius: 30,
                   backgroundColor: Colors.amber.shade100,
                   backgroundImage: AssetImage(iconLink),
               ),

@@ -1,7 +1,8 @@
 //<---------------- API Key -------------->
 String openWeatherApiKey = 'f9678ccabbae652649786c54fc792c25';
-String foreCastApiKey = 'key=33c00d4d79764b938c3112843230709';
+String foreCastApiKey = 'key=493bd246a8db40e7a81122050230410';
 //6e933d7fa2ab4def9bc120450232307
+//33c00d4d79764b938c3112843230709
 
 //<---------------- Hourly Update API Based URL-------------->
 String weatherBaseUrl = "https://api.openweathermap.org/data/2.5/weather?";

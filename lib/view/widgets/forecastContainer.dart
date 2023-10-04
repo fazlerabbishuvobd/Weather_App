@@ -74,10 +74,10 @@ class ForeCastParameter extends StatelessWidget {
 
   CircleAvatar _buildCircleAvatar() {
     return CircleAvatar(
-      radius: 50,
+      radius: 40,
       backgroundColor: Colors.amber,
       child: CircleAvatar(
-        radius: 45,
+        radius: 35,
         child: netIcon == 0?
         Image.asset('$iconUrl', fit: BoxFit.cover, scale: 1.5,):
         Image.network('https:$iconUrl',fit: BoxFit.cover,scale: 1,),
